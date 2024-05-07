@@ -11,11 +11,11 @@ public class ContaTerminal {
 		String nomeCliente;
 		double saldo;
 		
+		System.out.println("Por favor, digite o número da agência: ");
+        agencia = dados.next();
+		
 		System.out.println("Por favor, digite o número da conta: ");
         numeroConta = dados.nextInt();
-
-        System.out.println("Por favor, digite o número da agência: ");
-        agencia = dados.next();
 
         System.out.println("Por favor, digite seu nome: ");
         nomeCliente = dados.next();
