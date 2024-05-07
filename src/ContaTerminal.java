@@ -1,8 +1,16 @@
+import java.util.Scanner;
 
 public class ContaTerminal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Scanner dados = new Scanner(System.in);
+		
+		int numeroConta;
+		String agencia;
+		String nomeCliente;
+		double saldo;
+		
 
 	}
 
